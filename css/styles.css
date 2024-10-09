@@ -20,7 +20,7 @@ ul{
     margin-top: 0;
     margin-bottom: 0;
 }
-button{
+.button{
     font-family: "Lexend Deca", sans-serif;;
     width: 146px;
     height: 48px;
@@ -52,6 +52,22 @@ button{
     height: 442px;
     padding: 49px;
 }
+
+@media screen and (width>768px) {
+    .component{
+        width: 33%;
+        height: 442px;
+        padding: 49px;
+        display:inline-block;
+        
+    }
+    .button:hover{
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+    }
+}
+
 .circle{
     position: absolute;
     padding-left: 15px;
